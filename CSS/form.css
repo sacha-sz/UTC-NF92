@@ -1,0 +1,105 @@
+.erreur {
+  color:red;
+}
+
+.information {
+  color:green;
+}
+
+body.form {
+  background-color:#f6f0e9;
+}
+
+.cadre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px #31525B solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height : 54em;
+}
+
+.cadre h2 {
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.champ_texte input {
+  border-radius: 5px;
+  margin: 5px;
+  padding-left: 5px;
+}
+.champ_texte textarea {
+  border-radius: 5px;
+  margin: 5px;
+  padding-left: 5px;
+  resize: none;
+}
+
+.champ_texte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.champ_date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.champ_date input {
+  border-radius: 5px;
+  margin: 5px;
+  padding-left: 5px;
+}
+
+.conf_res {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.conf input{
+  color: green;
+}
+.res input{
+  color: red;
+}
+
+.table_recap td {
+  text-align: center;
+}
+
+.table_recap th {
+  text-align: center;
+}
+
+
+.message_info {
+  display: flex;
+  flex-direction: column;
+}
+.cadre p {
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.titre {
+  text-align: center;
+}
+
+.cadre select option {
+  text-align: center;
+}

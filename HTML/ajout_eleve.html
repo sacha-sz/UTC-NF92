@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajout Eleve</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+  </head>
+  
+  <body class="form">
+    <!-- Div de la page pour pouvoir l'agencer librement -->
+    <div class="page">
+
+      <!-- Div du cadre de saisie des informations -->
+      <div class="cadre">
+        <h2>Saisie des informations de l'élève :</h2>
+
+        <!-- Formulaire de saisie du prénom, nom et de la date de naissance d'un élève -->
+        <form action="../PHP/valider_eleve.php" method="post">
+        <div class="champ_texte">
+          <input type="text" name="prenom_eleve" maxlength="30" placeholder="Prenom" required>
+          <input type="text" name="nom_eleve" maxlength="30" placeholder="Nom" required>
+        </div>
+        <div class="champ_date">
+          <label for="date_eleve">Date de naissance de l'élève :</label>
+          <input type="date" name="date_eleve" min="1900-01-01" required>
+        </div>
+        <!-- Bouton confirmer et réinitialiser -->
+        <div class="conf_res">
+          <div class="res">
+            <input type="reset" value="Effacer">
+          </div>
+          <div class="conf">
+            <input type="submit" value="Enregistrer">
+          </div>
+        </div>
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>

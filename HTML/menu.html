@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Menu </title>
+    <link rel="stylesheet" href="../CSS/style.css">
+  </head>
+
+  <body class="menu">
+    <div class="menu-P">
+      <!-- Lien vers l'accueil -->
+      <a href="accueil.html" target="accueil" id="a-menu">
+        <div id="titre-a-menu">
+          <h1>Accueil</h1>
+        </div>
+      </a>
+      <div class="sous-menu">
+        <div class="ss-menu">
+          <!-- Liens de traitement des élèves -->
+            <div class="titre-ss-menu">
+              <h3>Gestion des élèves</h3>
+              <a href="ajout_eleve.html" target="accueil" class="link-menu">
+                <div >
+                  Ajout élève
+                </div>
+              </a>
+              <a href="../PHP/inscrire_eleve.php" target="accueil" class="link-menu">
+                <div >
+                  Inscrire élève
+                </div>
+              </a>
+              <a href="../PHP/consultation_eleve.php" target="accueil" class="link-menu">
+                <div >
+                  Consultation élève
+                </div>
+              </a>
+              <a href="../PHP/visualisation_calendrier_eleve.php" target="accueil" class="link-menu">
+                <div >
+                  Consultation séances élève
+                </div>
+              </a>
+            </div>
+        </div>
+
+        <div class="ss-menu">
+          <!-- Liens de traitement des thèmes -->
+            <div class="titre-ss-menu">
+              <h3>Gestion des thèmes</h3>
+              <a href="ajout_theme.html" target="accueil" class="link-menu">
+                <div>
+                  Ajout thème
+                </div>
+              </a>
+              <a href="../PHP/suppression_theme.php" target="accueil" class="link-menu">
+                <div>
+                  Supprimer thème
+                </div>
+              </a>
+            </div>
+        </div>
+
+        <div class="ss-menu">
+          <!-- Liens de traitement des séances -->
+            <div class="titre-ss-menu">
+              <h3>Gestion des séances</h3>
+              <a href="../PHP/ajout_seance.php" target="accueil" class="link-menu">
+                <div>
+                Ajout seance
+                </div>
+              </a>
+              <a href="../PHP/validation_seance.php" target="accueil" class="link-menu">
+                <div>
+                Valider seance
+                </div>
+              </a>
+              <a href="../PHP/desinscription_seance.php" target="accueil" class="link-menu">
+                <div >
+                  Desinscription élève séance
+                </div>
+              </a>
+              <a href="../PHP/suppression_seance.php" target="accueil" class="link-menu">
+                <div >
+                  Suppression séance future
+                </div>
+              </a>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

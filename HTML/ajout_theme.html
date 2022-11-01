@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajout Thème</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+  </head>
+
+  <body class="form">
+    <!-- Div de la page pour pouvoir l'agencer librement -->
+    <div class="page">
+
+      <!-- Div du cadre de saisie des informations -->
+      <div class="cadre">
+        <h2>Saisie des informations du thème :</h2>
+
+        <!-- Formulaire de saisie du nom et de la description d'un thème -->
+        <form action="../PHP/valider_theme.php" method="post">
+          <div class="champ_texte">
+            <input type="text" name="nom_theme" maxlength="30" placeholder="Nom du thème" required>
+            <textarea name="desc_theme" placeholder="Description du thème" rows="15" cols="55" required></textarea>
+          </div>
+          <div class="conf_res">
+            <div class="res">
+              <input type="reset" value="Effacer">
+            </div>
+            <div class="conf">
+              <input type="submit" value="Enregistrer">
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>
