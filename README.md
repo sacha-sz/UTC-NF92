@@ -71,4 +71,4 @@ Le site est responsive, il s'adapte à la taille de l'écran.
 -   **sacha-sz** - Le site web - [sacha-sz](https://github.com/sacha-sz)
 
 ## :bookmark_tabs: - Références
-- **Lien moodle vers le cours** : [UTC-NF92](https://moodle.utc.fr/enrol/index.php?id=837)
+- **Lien moodle vers le cours**, (nécessite d'être connecté pour y accéder) : [UTC-NF92](https://moodle.utc.fr/enrol/index.php?id=837)
