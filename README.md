@@ -1,11 +1,11 @@
 # UTC-NF92
 Contient les codes PHP, HTML et CSS du site que j'ai réalisé pour le projet de l'UV NF92.
-Le site web à réaliser est un site de gestion d'une autoécole. 
+Le site web à réaliser est un site de gestion d'une autoécole.
 Il permet de gérer les différents cours, les séances, les élèves, les themes.
 
 Nous pouvons ainsi visualiser les élèves, les cours via des tableaux, ajouter, modifier ou supprimer des élèves, des cours, des séances, des thémes.
 
-Le site est responsive, il s'adapte à la taille de l'écran. 
+Le site est responsive, il s'adapte à la taille de l'écran.
 
 
 ## :card_index_dividers: - Arborescence du projet
@@ -17,7 +17,7 @@ Le site est responsive, il s'adapte à la taille de l'écran.
 ├── CSS
 .   ├── accueil.css
 .   ├── from.css
-.   └── style.css 
+.   └── style.css
 ├── HTML
 .   ├── Images
 .   .   ├── conduite-acc-logo.png
@@ -54,7 +54,6 @@ Le site est responsive, il s'adapte à la taille de l'écran.
     ├── valider_theme.php
     ├── visualisation_calendrier_eleve.php
     └── visualiser_calendrier_eleve.php
- 
 ```
 
 ## :technologist: - Langages utilisés
