@@ -1,4 +1,4 @@
-# NF92 – Site de gestion d'une autoécole
+# 📚 NF92 – Site de gestion d'une autoécole
 
 Ce dépôt contient le code **PHP**, **HTML** et **CSS** du site web développé dans le cadre du projet de l'UV **NF92** à l'UTC.
 
