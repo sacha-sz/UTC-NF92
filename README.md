@@ -12,13 +12,13 @@ Les données sont présentées sous forme de tableaux dynamiques, et l'ensemble 
 
 Aperçu de la page d’accueil du site, avec navigation vers les différentes fonctionnalités.
 
-![Page d'accueil](media/Accueil.png)
+![Page d'accueil](medias/Accueil.png)
 
 ### ➕ Ajout d’un élève
 
 Formulaire dédié à l’ajout d’un nouvel élève dans la base de données.
 
-![Ajout élève](media/Eleve.png)
+![Ajout élève](medias/Eleve.png)
 <br/>
 
 ## :technologist: - Langages utilisés
