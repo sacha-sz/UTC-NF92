@@ -1,73 +1,44 @@
-# UTC-NF92
-Contient les codes PHP, HTML et CSS du site que j'ai réalisé pour le projet de l'UV NF92.
-Le site web à réaliser est un site de gestion d'une autoécole.
-Il permet de gérer les différents cours, les séances, les élèves, les themes.
+# NF92 – Site de gestion d'une autoécole
 
-Nous pouvons ainsi visualiser les élèves, les cours via des tableaux, ajouter, modifier ou supprimer des élèves, des cours, des séances, des thémes.
+Ce dépôt contient le code **PHP**, **HTML** et **CSS** du site web développé dans le cadre du projet de l'UV **NF92** à l'UTC.
 
-Le site est responsive, il s'adapte à la taille de l'écran.
+Le site permet de gérer efficacement une autoécole : élèves, cours, séances et thèmes peuvent être consultés, ajoutés, modifiés ou supprimés via une interface claire et structurée.
 
+Les données sont présentées sous forme de tableaux dynamiques, et l'ensemble du site est responsive, s'adaptant automatiquement à tous les formats d'écran (ordinateur, tablette, mobile).
 
-## :card_index_dividers: - Arborescence du projet
+## 📸 Médias
 
-```
-.
-├── README.md
-├── LICENSE
-├── CSS
-.   ├── accueil.css
-.   ├── from.css
-.   └── style.css
-├── HTML
-.   ├── Images
-.   .   ├── conduite-acc-logo.png
-.   .   ├── electric-car.png
-.   .   ├── euro.png
-.   .   ├── icone-accueil.png
-.   .   └── rating.png
-.   ├── accueil.html
-.   ├── ajout_eleve.html
-.   ├── ajout_theme.html
-.   ├── autoecole.html
-.   └── menu.html
-└──PHP
-    ├── ajout_eleve.php
-    ├── ajout_seance.php
-    ├── ajouter_seance.php
-    ├── ajouter_theme.php
-    ├── connexion.php
-    ├── consultation_eleve.php
-    ├── consultater_eleve.php
-    ├── desinscription_seance.php
-    ├── desinscrire_seance.php
-    ├── inscription_eleve.php
-    ├── inscrire_eleve.php
-    ├── noter_eleve.php
-    ├── rm_eleve.php
-    ├── suppression_seance.php
-    ├── suppression_theme.php
-    ├── supprimer_seance.php
-    ├── supprimer_theme.php
-    ├── validation_seance.php
-    ├── valider_eleve.php
-    ├── valider_seance.php
-    ├── valider_theme.php
-    ├── visualisation_calendrier_eleve.php
-    └── visualiser_calendrier_eleve.php
-```
+### 🏠 Page d'accueil  
+
+Aperçu de la page d’accueil du site, avec navigation vers les différentes fonctionnalités.
+
+![Page d'accueil](media/Accueil.png)
+
+### ➕ Ajout d’un élève
+
+Formulaire dédié à l’ajout d’un nouvel élève dans la base de données.
+
+![Ajout élève](media/Eleve.png)
+<br/>
 
 ## :technologist: - Langages utilisés
-- [HTML](https://www.wikiwand.com/fr/Hypertext_Markup_Language)
-- [CSS](https://www.wikiwand.com/fr/Feuilles_de_style_en_cascade)
-- [PHP](https://www.wikiwand.com/fr/PHP)
 
-## :memo: - Licence
+- HTML : [Wikipedia](https://www.wikiwand.com/fr/Hypertext_Markup_Language)
+- CSS : [Wikipedia](https://www.wikiwand.com/fr/Feuilles_de_style_en_cascade)
+- PHP : [Wikipedia](https://www.wikiwand.com/fr/PHP)
 
-[MIT](LICENSE)
+## 📄 Licence
 
-## :notebook_with_decorative_cover: - Auteurs et contributeurs
+Ce projet est sous licence **MIT** – voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
--   **sacha-sz** - Le site web - [sacha-sz](https://github.com/sacha-sz)
+<br/>
+
+## 👤 Auteurs et contributeurs
+
+- **[@sacha-sz](https://github.com/sacha-sz)** – auteur principal
+
+<br/>
 
 ## :bookmark_tabs: - Références
-- **Lien moodle vers le cours**, (nécessite d'être connecté pour y accéder) : [UTC-NF92](https://moodle.utc.fr/enrol/index.php?id=837)
+
+- [🔒 Cours NF92 sur Moodle (accès UTC requis)](https://moodle.utc.fr/course/view.php?id=837)
